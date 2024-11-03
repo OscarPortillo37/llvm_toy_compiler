@@ -18,9 +18,9 @@ enum Token {
 
 
 
-// Local file variables used in gettok()
-static std::string IdentifierStr;
-static double NumVal;
+// Double/Str variables
+std::string IdentifierStr;
+double NumVal;
 
 // Lexing function -- gettok (returns tokens)
 static int gettok() {
